@@ -17,3 +17,5 @@ const func = (selecter) => {
 }
 
 func("name");
+
+const val = b02;
