@@ -57,3 +57,47 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, .8);
 }
+
+.content {
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.content .nav-link {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 10px;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: all ease .5s;
+    border: solid 1px #111;
+}
+
+.content__title {
+    display: flex;
+}
+
+.content__title__text {
+    border: solid 1px red;
+}
+
+.heading {
+    position: relative;
+    display: flex;
+    border: solid 1px red;
+}
+
+.text {
+    border: solid 1px red;
+    padding: 10px 10px;
+    margin: auto;
+}
